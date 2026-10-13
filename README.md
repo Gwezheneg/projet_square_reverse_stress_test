@@ -7,7 +7,7 @@ appliqué à un portefeuille de crédit corporate, dans l'esprit du papier :
 > *Reverse Stress Testing Geopolitical Risk in Corporate Credit Portfolios :
 > A Formal and Operational Framework.*
 
-Le dépôt accompagne la note rédigée dans le cadre du Master 1 ESA — programme
+Le dépôt accompagne la note rédigée dans le cadre du Master 1 ESA, programme
 Square Management : *Stress Test Inversé du Risque Géopolitique dans les
 Portefeuilles de Crédit aux Entreprises* (Mars 2026, version révisée Mai 2026).
 
