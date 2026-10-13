@@ -1,0 +1,172 @@
+# ============================
+# Python
+# ============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ============================
+# Virtual Environments
+# ============================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+conda-env/
+
+# ============================
+# Jupyter Notebooks
+# ============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# ============================
+# IDE / Editors
+# ============================
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ============================
+# OS Files
+# ============================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# ============================
+# Data Files (optional - uncomment if needed)
+# ============================
+# *.csv
+# *.xlsx
+# *.xls
+# *.parquet
+# *.pickle
+# *.pkl
+# data/
+# raw_data/
+
+# ============================
+# Output Files
+# ============================
+outputs/
+results/
+figures/
+*.log
+*.tmp
+
+# ============================
+# Secrets & Config
+# ============================
+.env
+.env.local
+*.env
+config.ini
+secrets.yaml
+credentials.json
+
+# ============================
+# LaTeX (if you compile the paper)
+# ============================
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.out
+*.nav
+*.snm
+*.vrb
+
+# ============================
+# Misc
+# ============================
+*.bak
+*.swp
+*.swo
+.cache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# ============================
+# Local Audit / Note Artifacts
+# ============================
+.claude/
+
+# Temporary analysis helpers and extracted text
+tmp_*.py
+tmp_*.txt
+tmp_pdf_texts/
+
+# Local working documents that should stay off git
+Documents/Capture d'écran*.png
+Documents/DSR_note_exemple.pdf
+Documents/Projets STORM - Master ESA.pdf
+Documents/preambule.txt
+Documents/DIALLO (4).pdf
+Documents/reversestresstest.pdf
+Documents/Note - Reverse_Stress_Test_*.pdf
+Documents/Repartition_taches_RST_*.pdf
+Documents/Restitution_Reverse_Stress_Test_*.pdf
+# LaTeX aux files for the report
+Documents/Rapport_Personne_1_Phase_1_Phase_2.aux
+Documents/Rapport_Personne_1_Phase_1_Phase_2.log
+Documents/Rapport_Personne_1_Phase_1_Phase_2.out
+Documents/Rapport_Personne_1_Phase_1_Phase_2.toc
+
+# Rendered note PDFs and upload bundles
+Reverse_stress_test_gpt_version_courte.pdf
+overleaf_upload*.zip
+zip.gpt*.zip
+overleaf_zip_gpt/
+overleaf_zip_gpt_version2/
