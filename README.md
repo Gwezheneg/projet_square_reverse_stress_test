@@ -1,4 +1,4 @@
-# Reverse Stress Test Géopolitique — implémentation Python
+# Reverse Stress Test Géopolitique - implémentation Python
 
 Implémentation Python du cadre de **reverse stress test (RST) géopolitique**
 appliqué à un portefeuille de crédit corporate, dans l'esprit du papier :
@@ -177,7 +177,7 @@ utilisateur peut **remplacer ces trois fichiers par ses propres données**
 sans modifier le code de `src/`, à condition de respecter le schéma
 ci-dessous.
 
-### 5.1 `inputs/exposures.csv` — portefeuille de crédit (500 lignes ou plus)
+### 5.1 `inputs/exposures.csv` - portefeuille de crédit (500 lignes ou plus)
 
 | Colonne | Type | Bornes / contraintes | Description |
 |---|---|---|---|
@@ -200,7 +200,7 @@ id,sector,EAD,PD0,LGD0,rho,M,alpha_rwa,K0_proxy,RW0_exact_proxy
 202,Consumer,0.49053752307111537,0.003959815704424318,0.41298320542553335,0.19728747321457493,2.3292563225708816,12.610901881015646,0.029380951741177757,0.367261896764722
 ```
 
-### 5.2 `inputs/capital.csv` — paramètres de capital (1 ligne)
+### 5.2 `inputs/capital.csv` - paramètres de capital (1 ligne)
 
 | Colonne | Type | Bornes / contraintes | Description |
 |---|---|---|---|
@@ -233,7 +233,7 @@ CET1_0,RWA_0,R0,R_omega,q,delta_non_credit,Lq0_abs,baseline_convention
 | `b_shock_gdp`, `b_shock_vix`, `b_shock_sp500`, `b_shock_wti`, `b_shock_t10Y2Y`, `b_shock_unrate`, `b_shock_epu` | flottants | Sensibilités macro de la PD (eq. 7 du papier) |
 | `c_shock_gdp`, `c_shock_vix`, `c_shock_sp500`, `c_shock_wti`, `c_shock_t10Y2Y`, `c_shock_unrate`, `c_shock_epu` | flottants | Sensibilités macro de la LGD (eq. 10 du papier) |
 
-Exemple — première ligne du fichier simulé :
+Exemple - première ligne du fichier simulé :
 
 ```
 sector,param_origin,calibration_status,note,delta_g,eta_g,b_shock_gdp,b_shock_vix,b_shock_sp500,b_shock_wti,b_shock_t10Y2Y,b_shock_unrate,b_shock_epu,c_shock_gdp,c_shock_vix,c_shock_sp500,c_shock_wti,c_shock_t10Y2Y,c_shock_unrate,c_shock_epu
@@ -252,7 +252,7 @@ Energy,stylized,not_empirically_estimated,"sector hierarchy economically grounde
   `b_shock_gdp` négatif (PIB en hausse → PD en baisse), `b_shock_unrate` et
   `b_shock_vix` positifs (chômage ou volatilité en hausse → PD en hausse).
   Un signe inverse fausserait l'orientation du design point sans erreur
-  explicite — la cohérence est de la responsabilité de l'utilisateur.
+  explicite - la cohérence est de la responsabilité de l'utilisateur.
 - **Seuil de rupture.** `R_omega` doit être strictement inférieur à `R0`,
   faute de quoi la zone de rupture est vide et l'optimisation n'a pas de
   solution faisable.
